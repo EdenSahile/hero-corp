@@ -1,0 +1,48 @@
+body {
+    background-color: #BDC2BF;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container {
+    max-width: 760px;
+    background-color: #F4F3EE;
+    margin: 15px auto
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.header_img-logo {
+    margin: 0 auto;
+    width: 25%;
+}
+
+.separation {
+    width: 85%;
+    border: 0.5px solid #AD4B5B;
+}
+
+.header-title {
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.header-subtitle {
+    display: inline-block;
+    font-size: 0.8rem;
+    background-color: #333333;
+    color: honeydew;
+    padding: 5px 10px;
+    margin-top: 2px;
+    text-transform: lowercase;
+    letter-spacing: 1.5px;
+}
+
+.header-title,
+.header-subtitle {
+    text-align: center;
+}
