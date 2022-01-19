@@ -65,8 +65,9 @@ img {
 /*presentation section*/
 
 .presentation {
-    background-color: #D3D3D3;
+    background-color: #e5e5E5;
     padding: 0 10px;
+    margin-top: 30px;
 }
 
 .presentation-resume_title {
@@ -103,7 +104,8 @@ img {
 
 .presentation-resume_chapeau,
 .presentation-resume_description,
-.presentation-synopsis_description {
+.presentation-synopsis_description,
+.container-serie_description {
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -130,9 +132,10 @@ img {
 
 /*principaux acteurs section */
 
-.principaux-acteurs_title {
+.principaux-acteurs_title,
+.images-serie_title {
     font-weight: bold;
-    margin-top: 20px;
+    margin: 30px 0;
     font-size: 1.2rem;
 }
 
@@ -153,4 +156,41 @@ li.acteur.red {
 li.acteur:hover {
     color: rgb(230, 229, 229);
     background-color: #731222;
+}
+
+
+/*images series */
+
+.images-serie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.images-serie_title {
+    margin-bottom: 30px;
+}
+
+.container-serie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 200px;
+    border: 1px solid rgb(201, 201, 201)
+}
+
+.container-serie_img {
+    width: 60%;
+    padding: 10px 0;
+}
+
+.container-serie_title {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.container-serie_description {
+    text-align: center;
+    font-size: 0.8em;
 }
