@@ -126,3 +126,31 @@ img {
 .presentation-synopsis_description-3 {
     margin-top: 15px
 }
+
+
+/*principaux acteurs section */
+
+.principaux-acteurs_title {
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+.principaux-acteurs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li.acteur.red {
+    margin-top: 20px;
+    background-color: rgb(230, 229, 229);
+    padding: 10px 80px;
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+
+li.acteur:hover {
+    color: rgb(230, 229, 229);
+    background-color: #731222;
+}
