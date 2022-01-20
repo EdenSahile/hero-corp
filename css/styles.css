@@ -1,196 +1,263 @@
-body {
-    background-color: #BDC2BF;
-    box-sizing: border-box;
-    font-family: 'Oswald', sans-serif;
-}
-
-.container {
-    max-width: 760px;
-    background-color: #F4F3EE;
-    margin: 15px auto
-}
-
-img {
-    max-width: 100%;
-    display: block;
-}
-
-
-/* class utilitaires*/
-
-.red {
-    color: #731222;
-}
-
-.strong {
-    font-weight: bold;
-}
-
-
-/*header*/
-
-.header_img-logo {
-    margin: 0 auto;
-    width: 25%;
-}
-
-.separation {
-    width: 85%;
-    border: 0.5px solid #AD4B5B;
-}
-
-.header-title {
-    font-size: 2rem;
-    font-weight: 500;
-    text-transform: capitalize;
-}
-
-.header-subtitle {
-    display: inline-block;
-    font-size: 0.8rem;
-    background-color: #333333;
-    color: honeydew;
-    padding: 5px 10px;
-    margin-top: 2px;
-    text-transform: lowercase;
-    letter-spacing: 1.5px;
-}
-
-.header-title,
-.header-subtitle {
-    text-align: center;
-}
-
-
-/*presentation section*/
-
-.presentation {
-    background-color: #e5e5E5;
-    padding: 0 10px;
-    margin-top: 30px;
-}
-
-.presentation-resume_title {
-    text-align: center;
-    font-size: 1.2rem;
-    font-weight: 600;
-    padding-top: 20px;
-}
-
-.presentation-resume_img {
-    width: 20%;
-    margin: 20px auto;
-}
-
-.presentation-resume_chapeau {
-    font-size: 0.8rem;
-    line-height: 1.2;
-    text-align: left;
-    padding-bottom: 10px
-}
-
-.presentation-resume_separation {
-    width: 85%;
-    border: 1px solid rgb(154, 154, 154);
-}
-
-.presentation-resume_description {
-    font-size: 0.7rem;
-    font-style: italic;
-    line-height: 1.3;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.presentation-resume_chapeau,
-.presentation-resume_description,
-.presentation-synopsis_description,
-.container-serie_description {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-
-/*synopsis section*/
-
-.presentation-synopsis_title {
-    text-align: center;
-    font-weight: 600;
-    margin-bottom: 15px;
-}
-
-.presentation-synopsis_description {
-    font-size: 0.8rem;
-    line-height: 1.4;
-    text-align: left;
-}
-
-.presentation-synopsis_description-2,
-.presentation-synopsis_description-3 {
-    margin-top: 15px
-}
-
-
-/*principaux acteurs section */
-
-.principaux-acteurs_title,
-.images-serie_title {
-    font-weight: bold;
-    margin: 30px 0;
-    font-size: 1.2rem;
-}
-
-.principaux-acteurs {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-li.acteur.red {
-    margin-top: 20px;
-    background-color: rgb(230, 229, 229);
-    padding: 10px 80px;
-    border-radius: 10px;
-    text-transform: capitalize;
-}
-
-li.acteur:hover {
-    color: rgb(230, 229, 229);
-    background-color: #731222;
-}
-
-
-/*images series */
-
-.images-serie {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.images-serie_title {
-    margin-bottom: 30px;
-}
-
-.container-serie {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 30px;
-    width: 200px;
-    border: 1px solid rgb(201, 201, 201)
-}
-
-.container-serie_img {
-    width: 60%;
-    padding: 10px 0;
-}
-
-.container-serie_title {
-    font-weight: bold;
-    margin: 10px 0;
-}
-
-.container-serie_description {
-    text-align: center;
-    font-size: 0.8em;
-}
+                                        body {
+                                            background-color: #BDC2BF;
+                                            box-sizing: border-box;
+                                            font-family: 'Oswald', sans-serif;
+                                            max-height: fit-content;
+                                        }
+                                        
+                                        .container {
+                                            max-width: 760px;
+                                            background-color: #F4F3EE;
+                                            margin: 15px auto
+                                        }
+                                        
+                                        img {
+                                            max-width: 100%;
+                                            display: block;
+                                        }
+                                        /* class utilitaires*/
+                                        
+                                        .red {
+                                            color: #731222;
+                                        }
+                                        
+                                        .strong {
+                                            font-weight: bold;
+                                        }
+                                        /*header*/
+                                        
+                                        .header_img-logo {
+                                            margin: 0 auto;
+                                            width: 25%;
+                                        }
+                                        
+                                        .separation {
+                                            width: 85%;
+                                            border: 0.5px solid #AD4B5B;
+                                        }
+                                        
+                                        .header-title {
+                                            font-size: 2rem;
+                                            font-weight: 500;
+                                            text-transform: capitalize;
+                                        }
+                                        
+                                        .header-subtitle {
+                                            display: inline-block;
+                                            font-size: 0.8rem;
+                                            background-color: #333333;
+                                            color: honeydew;
+                                            padding: 5px 10px;
+                                            margin-top: 2px;
+                                            text-transform: lowercase;
+                                            letter-spacing: 1.5px;
+                                        }
+                                        
+                                        .header-title,
+                                        .header-subtitle {
+                                            text-align: center;
+                                        }
+                                        /*presentation section*/
+                                        
+                                        .presentation {
+                                            background-color: #e5e5E5;
+                                            padding: 0 10px;
+                                            margin-top: 30px;
+                                        }
+                                        
+                                        .presentation-resume_title {
+                                            text-align: center;
+                                            font-size: 1.7rem;
+                                            font-weight: 600;
+                                            padding-top: 20px;
+                                        }
+                                        
+                                        .presentation-resume_img {
+                                            width: 30%;
+                                            margin: 20px auto;
+                                        }
+                                        
+                                        .presentation-resume_chapeau {
+                                            font-size: 0.9rem;
+                                            line-height: 1.2;
+                                            text-align: left;
+                                            padding-bottom: 10px
+                                        }
+                                        
+                                        .presentation-resume_separation {
+                                            width: 85%;
+                                            border: 1px solid rgb(154, 154, 154);
+                                        }
+                                        
+                                        .presentation-resume_description {
+                                            font-size: 0.9rem;
+                                            font-style: italic;
+                                            line-height: 1.4;
+                                            text-align: center;
+                                            margin-bottom: 30px;
+                                        }
+                                        
+                                        .presentation-resume_chapeau,
+                                        .presentation-resume_description,
+                                        .presentation-synopsis_description,
+                                        .container-serie_description,
+                                        .footer {
+                                            font-family: Arial, Helvetica, sans-serif;
+                                        }
+                                        /*synopsis section*/
+                                        
+                                        .presentation-synopsis_title {
+                                            text-align: center;
+                                            font-weight: 600;
+                                            margin-bottom: 15px;
+                                            font-size: 1.5rem;
+                                        }
+                                        
+                                        .presentation-synopsis_description {
+                                            font-size: 0.9srem;
+                                            line-height: 1.4;
+                                            text-align: left;
+                                        }
+                                        
+                                        .presentation-synopsis_description-2,
+                                        .presentation-synopsis_description-3 {
+                                            margin-top: 15px
+                                        }
+                                        /*principaux acteurs section */
+                                        
+                                        .principaux-acteurs_title,
+                                        .images-serie_title {
+                                            font-weight: bold;
+                                            margin: 30px 0;
+                                            font-size: 1.7rem;
+                                        }
+                                        
+                                        .principaux-acteurs {
+                                            display: flex;
+                                            flex-direction: column;
+                                            align-items: center;
+                                        }
+                                        
+                                        li.acteur.red {
+                                            margin-top: 20px;
+                                            background-color: rgb(230, 229, 229);
+                                            padding: 10px 80px;
+                                            border-radius: 10px;
+                                            text-transform: capitalize;
+                                            font-size: 1.2rem;
+                                        }
+                                        
+                                        li.acteur:hover {
+                                            color: rgb(230, 229, 229);
+                                            background-color: #731222;
+                                        }
+                                        /*images series */
+                                        
+                                        .images-serie {
+                                            /* display: flex;
+                                            flex-direction: column;
+                                            align-items: center; */
+                                        }
+                                        
+                                        .serie-bloc {
+                                            display: flex;
+                                            flex-direction: column;
+                                            align-items: center;
+                                        }
+                                        
+                                        .images-serie_title {
+                                            text-align: center;
+                                            margin-bottom: 30px;
+                                        }
+                                        
+                                        .container-serie {
+                                            display: flex;
+                                            flex-direction: column;
+                                            align-items: center;
+                                            margin-bottom: 30px;
+                                            width: 200px;
+                                            border: 1px solid rgb(201, 201, 201)
+                                        }
+                                        
+                                        .container-serie_img {
+                                            width: 80%;
+                                            padding: 10px 0;
+                                        }
+                                        
+                                        .container-serie_title {
+                                            font-weight: bold;
+                                            margin: 10px 0;
+                                        }
+                                        
+                                        .container-serie_description {
+                                            text-align: center;
+                                            font-size: 0.8em;
+                                            padding-bottom: 10px;
+                                            ;
+                                        }
+                                        /*footer*/
+                                        
+                                        .footer {
+                                            padding: 30px 10px;
+                                            text-align: center;
+                                            background-color: #e5e5e5;
+                                            height: 90px;
+                                        }
+                                        
+                                        .footer-text {
+                                            padding-top: 10px
+                                        }
+                                        /* media queries */
+                                        /* MEDIUM devices (landscape tables, 768px and up)*/
+                                        
+                                        @media screen and (min-width: 768px) {
+                                            /*présentation */
+                                            .presentation-resume_title {
+                                                font-size: 2rem;
+                                                font-weight: 600;
+                                                padding-top: 20px;
+                                                padding-bottom: 20px;
+                                            }
+                                            .presentation-resume_chapeau {
+                                                font-size: 1.4rem;
+                                                line-height: 1.2;
+                                                text-align: left;
+                                                padding-bottom: 10px
+                                            }
+                                            .presentation-resume_description {
+                                                font-size: 1.2rem;
+                                                font-style: italic;
+                                                line-height: 1.4;
+                                                text-align: center;
+                                                margin-bottom: 30px;
+                                            }
+                                            /*liste acteurs*/
+                                            .liste {
+                                                display: flex;
+                                                flex-wrap: wrap;
+                                                justify-content: flex-start;
+                                                margin-left: 30px;
+                                            }
+                                            .liste li.acteur.red {
+                                                background-color: rgb(230, 229, 229);
+                                                padding: 10px 80px;
+                                                border-radius: 10px;
+                                                text-transform: capitalize;
+                                                font-size: 1.2rem;
+                                                flex-basis: min-content;
+                                                margin-left: 20px;
+                                            }
+                                            /*images series*/
+                                            .images-serie_title {
+                                                margin-top: 20px;
+                                            }
+                                            .serie-bloc {
+                                                display: flex;
+                                                flex-direction: row;
+                                                justify-content: center;
+                                                align-items: stretch;
+                                            }
+                                            .container-serie {
+                                                margin-right: 1em;
+                                            }
+                                        }
